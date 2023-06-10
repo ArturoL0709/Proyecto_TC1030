@@ -1,26 +1,35 @@
 # Proyecto_TC1030
 Proyecto de programación orientado a objetos
+El programa es un sistema de pedidos para un restaurante. Permite a los clientes seleccionar y ordenar diferentes platos, como bebidas, postres y platos principales, y calcular el total del pedido.
+
+El programa utiliza una estructura de clases para representar los diferentes tipos de platos. La clase base es "plato", que tiene atributos comunes como el nombre, el tipo y el precio. Esta clase es abstracta y define dos métodos virtuales puros: "calcular_cuenta()" y "to_string()". Las clases derivadas "bebida", "postre" y "plato_principal" heredan de la clase "plato" y proporcionan implementaciones concretas para estos métodos.
+
+El programa utiliza una clase adicional llamada "pedido" para manejar la lógica del pedido. La clase "pedido" contiene un arreglo de punteros a objetos de la clase "plato" y realiza operaciones como agregar platos al pedido, mostrar el menú, calcular el total del pedido y realizar el pedido final.
+
+El programa comienza en la función principal main(). Crea un objeto de la clase "pedido" y llama al método "creaejemplos()" para inicializar el menú con algunos ejemplos predefinidos. Luego, muestra un menú principal que permite al usuario seleccionar diferentes opciones, como agregar una bebida, un postre o un plato principal, mostrar el menú, realizar un pedido o salir del programa.
+
+Cuando el usuario selecciona una opción para agregar un plato, se recopilan los detalles necesarios, como el nombre, el precio y la proteína en el caso de un plato principal. Luego, se llaman a los métodos correspondientes de la clase "pedido" para agregar el plato al pedido.
+
+El programa utiliza bucles y estructuras de control para permitir al usuario realizar múltiples selecciones y construir su pedido. Se muestra el menú de pedido después de cada selección para que el cliente pueda ver qué platos ha seleccionado hasta el momento. El total del pedido se calcula continuamente y se muestra al finalizar el pedido.
+
+En resumen, el programa del sistema de pedidos del restaurante proporciona una interfaz interactiva para que los clientes seleccionen y ordenen diferentes platos. Ofrece opciones para agregar bebidas, postres y platos principales, muestra el menú, calcula el total del pedido y permite realizar el pedido final. Es una herramienta útil para agilizar el proceso de pedidos en un restaurante y mejorar la experiencia del cliente.
 
 
-El proyecto trata de un restaurante donde para realizar un pedido debemos pedir un plato que puede ser de cualquiera de las siguientes clases: bebida, plato principal o bebida, cada una de estas clases tiene atributo especificos como calorias, proteina o mililitros. El fin de este programa es que te permita hacer la cuenta de pedidos y te lo muestre en la pantalla con detalles. 
+# Consideraciones
+Limitaciones en los tipos de platos: El programa solo permite agregar platos de tres tipos: bebidas, postres y platos principales. No se proporciona la opción para agregar otros tipos de platos. Si se desea ampliar la variedad de platos, se requeriría modificar el código y agregar las clases correspondientes.
+
+Entrada de datos: Es importante ingresar correctamente los tipos de datos para cada atributo solicitado al agregar un plato. El programa espera que se ingresen cadenas de caracteres (string) para el nombre y la proteína del plato principal, y números de punto flotante (float) para el precio de los platos y el tamaño de la bebida. Es necesario asegurarse de ingresar los datos en el formato correcto para evitar errores.
+
+Ambiente de ejecución: El programa está diseñado para ejecutarse en la consola y ha sido desarrollado utilizando el estándar de C++ (C++ standard), lo que significa que debería ser compatible con todos los sistemas operativos. Sin embargo, se menciona específicamente que ha sido probado en sistemas Linux y Windows. Se proporcionan las instrucciones para compilar y ejecutar el programa en estos sistemas operativos.
+
+Dependencias y compilación: Se mencionan los archivos necesarios para compilar el programa, incluyendo los archivos de encabezado (.h) y el archivo principal (main.cpp). Se proporciona el comando de compilación para usar con el compilador g++ en Linux y se menciona el nombre del archivo de salida. Para Windows, se menciona el nombre del archivo ejecutable resultante.
 
 
-##Funcionalidad 
 
-El programa perimite el registro de las siguientes cosas: 
- * Agregar bebida
- * Agregar plato principal
- * Agregar postre
- 
- El progrma te permitira realizar lo siguiente: 
-  *Mostrar el menu
-  *Realizar un pedido
-  *Calcular cuenta del pedido
-  *Mostrar toda la cuenta del pedido
- 
- El programa contara con un menu que incluya las opciones anteriores. 
+# CORRECIONES
+Para esta entrega he modificado correciones que me hicieron llegar por medio de mi archivo de excel. Las correciones son mi UML y la sobrecarga y sobreescriturade metodos. 
+
  
  ##Consideraciones
- 
- El programa solo contempla las categorias de bebidas, postre y plato principal. 
+. 
   
