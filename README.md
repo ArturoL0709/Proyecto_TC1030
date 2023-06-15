@@ -20,7 +20,8 @@ Limitaciones en los tipos de platos: El programa solo permite agregar platos de 
 
 Entrada de datos: Es importante ingresar correctamente los tipos de datos para cada atributo solicitado al agregar un plato. El programa espera que se ingresen cadenas de caracteres (string) para el nombre y la proteína del plato principal, y números de punto flotante (float) para el precio de los platos y el tamaño de la bebida. Es necesario asegurarse de ingresar los datos en el formato correcto para evitar errores.
 
-Ambiente de ejecución: El programa está diseñado para ejecutarse en la consola y ha sido desarrollado utilizando el estándar de C++ (C++ standard), lo que significa que debería ser compatible con todos los sistemas operativos. Sin embargo, se menciona específicamente que ha sido probado en sistemas Linux y Windows. Se proporcionan las instrucciones para compilar y ejecutar el programa en estos sistemas operativos.
+Ambiente de ejecución: g++ bebida.h pedido.h Plato.h plato_principal.h postre.h main.cpp -o programa
+Windows: programa.exe
 
 Dependencias y compilación: Se mencionan los archivos necesarios para compilar el programa, incluyendo los archivos de encabezado (.h) y el archivo principal (main.cpp). Se proporciona el comando de compilación para usar con el compilador g++ en Linux y se menciona el nombre del archivo de salida. Para Windows, se menciona el nombre del archivo ejecutable resultante.
 
