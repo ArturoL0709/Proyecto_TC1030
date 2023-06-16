@@ -28,7 +28,7 @@ Dependencias y compilación: Se mencionan los archivos necesarios para compilar 
 
 
 # CORRECIONES
-Para esta entrega he modificado correciones que me hicieron llegar por medio de mi archivo de UML. Las correciones son mi UML y la sobrecarga y sobreescriturade metodos. 
+Para esta entrega finalhe modificado correciones que me hicieron llegar por medio de mi archivo de de calificaciones de Excel. Las correciones son mi UML,  la sobrecarga y sobreescriturade metodos, así como también la implementación de clases virtuales. 
 
  
  ##Consideraciones
